@@ -1,0 +1,131 @@
+body {
+    background: url("./fonts/background.webp") center center no-repeat  fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.text {
+    border: 0;
+    border-radius: 3px;
+    outline: none;
+    height: 100px;
+    width: 650px;
+    color: #000000;
+    font-size: 15px;
+    font-family: "fontInput";
+    margin: 10px;
+    text-indent: 10px;
+    padding-top: 10px;
+    background-color: rgba(255, 255, 255, 0.58);
+}
+
+.text:hover {
+    cursor: text;
+    background-color: rgba(255, 255, 255, 0.58);
+}
+
+.key {
+    border: 0;
+    border-radius: 3px;
+    text-indent: 10px;
+    padding-top: 10px;
+    height: 30px;
+    width: 150px;
+    font-size: 15px;
+    font-family: "fontInput";
+    margin: 10px 10px 2px 10px;
+    background-color: rgba(255, 255, 255, 0.58);
+    outline: 0;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: "fontInput";
+    margin: 10px;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: "fontInput";
+    margin: 10px;
+}
+
+p {
+    font-size: 15px;
+    font-family: "fontInput";
+    margin: 2px 10px 10px 10px;
+}
+
+.decrypt-button {
+    font-size: 15px;
+    font-family: "fontInput";
+    height: 40px;
+    width: 200px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 0;
+    border-radius: 3px;
+}
+
+.decrypt-button:hover {
+    background: rgba(255, 255, 255, 0.58);
+    transform: scale(1.08);
+}
+
+.encrypt-button {
+    font-size: 15px;
+    font-family: "fontInput";
+    height: 40px;
+    width: 200px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 0;
+    border-radius: 3px;
+}
+
+.encrypt-button:hover {
+    background: rgba(255, 255, 255, 0.58);
+    transform: scale(1.08);
+}
+
+.clear-button {
+    font-size: 15px;
+    font-family: "fontInput";
+    height: 40px;
+    width: 200px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 0;
+    border-radius: 3px;
+    display: none;
+}
+
+.clear-button:hover {
+    background: rgba(255, 255, 255, 0.58);
+    transform: scale(1.08);
+}
+
+.result-text {
+    border: 0;
+    border-radius: 3px;
+    outline: none;
+    height: 100px;
+    width: 650px;
+    color: #000000;
+    font-size: 15px;
+    font-family: "fontInput";
+    margin: 10px;
+    text-indent: 10px;
+    padding-top: 10px;
+    background-color: rgba(255, 255, 255, 0.58);
+    opacity: 0;
+}
+
+@font-face {
+    font-family: "fontInput";
+    src: url("./fonts/fontInput.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

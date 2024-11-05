@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Поточный шифр</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./fonts/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./fonts/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+<div class="cipherWindow">
+    <h1>Поточный шифр:</h1>
+    <textarea class="text" placeholder="Введите текст.."></textarea>
+    <div>
+        <input class="key" type="text" placeholder="Введите ключ.."/>
+    </div>
+    <br>
+    <div>
+        <p>В качестве генератора ключевой гаммы используется иттеративный блочный шифр ГОСТ-89</p>
+    </div>
+    <div class="btn-crypt">
+        <button class="encrypt-button">шифровать</button>
+        <button class="decrypt-button">дешифровать</button>
+    </div>
+    <h2>Результат:</h2>
+    <textarea class="result-text" readonly></textarea>
+    <button class="clear-button">очистить</button>
+</div>
+
+<script src="index.js"></script>
+
+</body>
+
+</html>
